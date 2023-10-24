@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "pepinillo",
+    "description": "Verdura",
+    "price": "5",
+    "thumbnail": "Noimage",
+    "stock": 100
+  },
+  {
+    "id": 2,
+    "title": "Platano",
+    "description": "Amarilla",
+    "price": "10",
+    "thumbnail": "NoImage",
+    "stock": 200
+  },
+  {
+    "id": 3,
+    "title": "pera",
+    "description": "fruta",
+    "price": "15",
+    "thumbnail": "NoImage",
+    "stock": 300
+  },
+  {
+    "id": 4,
+    "title": "Sandia",
+    "description": "fruta",
+    "price": "20",
+    "thumbnail": "NoImage",
+    "stock": 50
+  },
+  {
+    "id": 5,
+    "title": "Tomate",
+    "description": "verdura",
+    "price": "25",
+    "thumbnail": "NoImage",
+    "stock": 400
+  },
+  {
+    "id": 6,
+    "title": "Uvas",
+    "description": "fruta",
+    "price": "18",
+    "thumbnail": "NoImage",
+    "stock": 50
+  }
+]
