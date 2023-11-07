@@ -1,0 +1,89 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formulario label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    resize: none;
+    /* Añade un margen vertical entre elementos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product p {
+    margin: 5px 0;
+    color: #302d2d;
+}
+
+.product p:first-child {
+    font-weight: bold;
+    color: #333333dc;
+}
+
+.product p:last-child {
+    font-size: 18px;
+    color: #ff2200;
+}
+
+.product {
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    background-color: rgb(233, 192, 177);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    background-color: #ccc;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
